@@ -59,7 +59,6 @@ body {
 .form {
   margin-bottom: 20px;
   margin-left: 20%;
-  display: flex;
 }
 
 input[type="email"],
@@ -82,13 +81,15 @@ textarea {
 .fa-user {
   color: #757373;
   font-size: 18px;
-  margin-top: 15px;
+  margin-top: 10px;
+  padding-right: 5px;
 }
 
 .fa-lock {
   color: #757373;
   font-size: 18px;
-  margin-top: 15px;
+  margin-top: 10px;
+  padding-right: 5px;
 }
 
 button[type="submit"] {
