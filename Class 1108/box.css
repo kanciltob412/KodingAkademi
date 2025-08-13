@@ -75,15 +75,21 @@ textarea {
     font-size: 18px;
 }
 
-.input-icon {
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
-}
-
 input[type="checkbox"] {
     margin-right: 10px;
-    margin-left: 3%;
+    margin-left: 1%;
+}
+
+.fa-user {
+color: #757373;
+font-size: 18px;
+margin-top: 15px;
+}
+
+.fa-lock {
+    color: #757373;
+    font-size: 18px;
+    margin-top: 15px;
 }
 
 button[type="submit"] {
