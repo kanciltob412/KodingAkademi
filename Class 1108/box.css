@@ -1,104 +1,103 @@
 body {
-    margin: 5%;
-    margin-bottom: 20%;
+  margin: 5%;
+  margin-bottom: 20%;
 }
 
 .box1 {
-    border: 3px solid #4986ef;
-    padding-left: 15px;
+  border: 3px solid #4986ef;
+  padding-left: 15px;
 }
 
 .box2 {
-    border: 3px solid #ef4949;
-    padding-left: 15px;
+  border: 3px solid #ef4949;
+  padding-left: 15px;
 }
 
 .box3 {
-    border: 3px solid #05dc51;
-    padding-left: 15px;
+  border: 3px solid #05dc51;
+  padding-left: 15px;
 }
 
 .box4 {
-    border: 3px solid #df9409;
-    border-radius: 15px;
-    padding-left: 15px;
+  border: 3px solid #df9409;
+  border-radius: 15px;
+  padding-left: 15px;
 }
 
 .box5 {
-    border: 3px solid #9405dc;
-    padding-left: 15px;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+  border: 3px solid #9405dc;
+  padding-left: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .box6 {
-    border: 4px solid #2148e5;
-    padding-left: 15px;
-    background-color: #203587;
-    border-color: whitesmoke;
-    color: white;
+  border: 4px solid #2148e5;
+  padding-left: 15px;
+  background-color: #203587;
+  border-color: whitesmoke;
+  color: white;
 }
 
 .box7 {
-    border: 5px dotted #b80a0a;
-    padding-left: 15px;
+  border: 5px dotted #b80a0a;
+  padding-left: 15px;
 }
 
 .box8 {
-    width: 570px;
-    margin-top: 10%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 4%;
-    border-color: transparent;
-    box-shadow: 1px 1px 10px #bebdbd;
-    color: #212121;
-    font-family: Verdana;
+  width: 570px;
+  margin-top: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 4%;
+  border-color: transparent;
+  box-shadow: 1px 1px 10px #bebdbd;
+  color: #212121;
+  font-family: Verdana;
 }
 
 .form {
-    margin-bottom: 20px;
-    margin-left: 20%;
-    display: flex;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  display: flex;
 }
 
 input[type="email"],
 input[type="password"],
-
-textarea {
-    width: 250px;
-    padding: 10px;
-    border-top: 1px;
-    border-left: 1px;
-    border-right: 1px;
-    border-color: #ddd;
-    font-size: 18px;
+input[type="checkbox"] {
+  margin-right: 10px;
+  margin-left: 1%;
 }
 
-input[type="checkbox"] {
-    margin-right: 10px;
-    margin-left: 1%;
+textarea {
+  width: 250px;
+  padding: 10px;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: #ddd;
+  font-size: 18px;
 }
 
 .fa-user {
-color: #757373;
-font-size: 18px;
-margin-top: 15px;
+  color: #757373;
+  font-size: 18px;
+  margin-top: 15px;
 }
 
 .fa-lock {
-    color: #757373;
-    font-size: 18px;
-    margin-top: 15px;
+  color: #757373;
+  font-size: 18px;
+  margin-top: 15px;
 }
 
 button[type="submit"] {
-    background-color: #2eb413;
-    color: white;
-    padding: 20px;
-    border: none;
-    margin-left: 10%;
-    border-radius: 4px;
-    width: 50%;
-    font-size: 18px;
+  background-color: #2eb413;
+  color: white;
+  padding: 20px;
+  border: none;
+  margin-left: 10%;
+  border-radius: 4px;
+  width: 50%;
+  font-size: 18px;
 }
