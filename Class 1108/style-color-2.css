@@ -1,0 +1,12 @@
+header { 
+    background: linear-gradient( 45deg, #f84545, #fe873e);
+    border-radius: 10px
+}
+
+main {
+    background: linear-gradient( 45deg, #d7de53, #b0fb2e);
+    border-radius: 10px
+}
+footer {
+    background-color: #212121; border-radius: 10px
+}

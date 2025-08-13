@@ -1,0 +1,55 @@
+h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+.container .item {
+    width: 600px;
+    height: 100px;
+    background-color: red;
+    font-size: 21px;
+    padding: 10px;
+    color: white;
+    padding: 20px;
+}
+
+.container2 .item {
+    width: 600px;
+    height: 100px;
+    background-color: gold;
+    font-size: 21px;
+    padding: 10px;
+    color: grey;
+    padding: 20px;
+}
+
+.container3 .item {
+    width: 600px;
+    height: 100px;
+    background-color: red;
+    font-size: 21px;
+    padding: 10px;
+    color: grey;
+    padding: 20px;
+}
+.container4 .item {
+    width: 600px;
+    height: 100px;
+    background-color: green;
+    font-size: 21px;
+    padding: 10px;
+    color: grey;
+    padding: 20px;
+}
+.container5 .item {
+    width: 600px;
+    height: 100px;
+    background-color: skyblue;
+    font-size: 21px;
+    padding: 10px;
+    color: grey;
+    padding: 20px;
+
+}

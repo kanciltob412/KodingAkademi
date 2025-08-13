@@ -1,0 +1,43 @@
+body { background-color: white
+}
+h1 {
+    color: lightskyblue;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Courier New';
+}
+h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Courier New';
+}
+p {
+    color: black;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-family: 'Courier New';
+}
+#box {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+
+.container .item {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(236, 235, 235);
+    font-size: 14px;
+    padding: 10px;
+    color: grey;
+    padding: 20px;
+
+}
+
+.item2 {
+    color: black;
+}
