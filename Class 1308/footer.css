@@ -1,0 +1,42 @@
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  background: #333;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 18px;
+}
+
+.social-media-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.social-media-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media-link {
+  color: #fff;
+  font-size: 18px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-media-link:hover {
+  opacity: 0.8;
+}
