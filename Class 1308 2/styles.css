@@ -1,0 +1,160 @@
+/* header */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+  margin: 0;
+}
+header {
+  padding: 30px;
+  text-align: center;
+  background: linear-gradient(#2980b9, #3498db);
+  color: #fff;
+}
+header h1 {
+  font-size: 50px;
+  margin: 0;
+}
+header p {
+  font-size: 18px;
+  margin: 10px 0 0;
+}
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+nav a:last-child {
+  float: right;
+}
+
+/* content */
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leftcolumn {
+  flex: 75%;
+}
+
+.rightcolumn {
+  flex: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.rightcolumn .fakeimg {
+  height: 100px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card h5 {
+  font-size: 14px;
+  color: #777;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+/* footer */
+
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  background: #333;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 18px;
+}
+
+.social-media-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.social-media-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media-link {
+  color: #fff;
+  font-size: 18px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-media-link:hover {
+  opacity: 0.8;
+}
