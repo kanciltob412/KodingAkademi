@@ -1,0 +1,292 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  background: rgb(51, 51, 51);
+  color: #fff;
+}
+
+.button1 {
+  color: #333;
+  background-color: #f5b010;
+  padding: 10px 15px 10px 15px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* content */
+.hero {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.5)),
+    url("Assets/aerial-shot-sea-waves-seashore-during-daytime.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0 50px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.hero-side-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-side-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.video-container {
+  text-align: center;
+  width: 560px;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 315px;
+  display: block;
+  border: none;
+}
+
+/* Gunakan aspect-ratio untuk mendukung berbagai rasio */
+.ratio-16x9 {
+  aspect-ratio: 16 / 9;
+}
+
+.ratio-4x3 {
+  aspect-ratio: 4 / 3;
+}
+
+.ratio-1x1 {
+  aspect-ratio: 1 / 1;
+}
+
+.logo-mitra-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-mitra-container img {
+  max-width: 150px;
+  height: auto;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 18px;
+  color: #333;
+}
+
+.card h5 {
+  font-size: 14px;
+  color: orange;
+  ;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+}
+
+.card ul {
+  list-style: disc;
+  text-align: left;
+  padding: 0 20px;
+  margin: 10px 0;
+}
+
+.card ul li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.card button {
+  padding: 10px;
+  background: #333;
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.card button:hover {
+  background: transparent;
+  border: #333 solid;
+  color: #333;
+}
+
+
+.button2 {
+  color: white;
+  background-color: #333;
+  padding: 10px 15px 10px 15px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: #fff;
+  color: #000;
+
+}
+
+/* footer */
+
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  background: linear-gradient(#9ec1d8, #cb59cb);
+  margin-top: 20px;
+  color: #333;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 14px;
+}
+
+.social-media-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.social-media-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media-link {
+  color: #333;
+  font-size: 18px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-media-link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-side-image {
+    order: -1;
+    justify-content: center;
+    width: 200px;
+  }
+
+  .logo-mitra-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo-mitra-container img {
+    max-width: 120px;
+  }
+}
